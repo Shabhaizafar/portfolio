@@ -69,7 +69,7 @@ const Navbar = props => {
           </Heading>
         </Flex>
 
-        <Stack
+        {/* <Stack
           direction={{ base: 'column', md: 'row' }}
           display={{ base: 'none', md: 'flex' }}
           width={{ base: 'full', md: 'auto' }}
@@ -86,13 +86,13 @@ const Navbar = props => {
           <LinkItem href="/posts" path={path}>
             Posts
           </LinkItem>
-        </Stack>
+        </Stack> */}
 
         <Box flex={1} align="right">
           <ThemeToggleButton />
 
           <Box ml={2} display={{ base: 'inline-block', md: 'none' }}>
-            <Menu isLazy id="navbar-menu">
+            {/* <Menu isLazy id="navbar-menu">
               <MenuButton
                 as={IconButton}
                 icon={<HamburgerIcon />}
@@ -113,7 +113,7 @@ const Navbar = props => {
                   Posts
                 </MenuItem>
               </MenuList>
-            </Menu>
+            </Menu> */}
           </Box>
         </Box>
       </Container>
