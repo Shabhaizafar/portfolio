@@ -69,7 +69,7 @@ const Navbar = props => {
           </Heading>
         </Flex>
 
-        {/* <Stack
+        <Stack
           direction={{ base: 'column', md: 'row' }}
           display={{ base: 'none', md: 'flex' }}
           width={{ base: 'full', md: 'auto' }}
@@ -86,7 +86,7 @@ const Navbar = props => {
           <LinkItem href="/posts" path={path}>
             Posts
           </LinkItem>
-        </Stack> */}
+        </Stack>
 
         <Box flex={1} align="right">
           <ThemeToggleButton />

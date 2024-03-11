@@ -33,7 +33,7 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        Hello, I&apos;m an Full Stack web developer based in India!
+        Hello, I&apos;m a Front-End developer based in India!
       </Box>
 
       <Box display={{ md: 'flex' }}>
@@ -75,11 +75,7 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          Zafar is a full-stack developer based in Ahmedabad with a
-          passion for building digital services/stuff he wants. He has a knack
-          for all things, from planning and designing all the
-          way to solving real-life problems with code. When not online, he loves
-          spending time with his Family.
+        Zafar is a full-stack developer based in Ahmedabad. He has a passion for building digital services and creating things that he wants. Zafar has a knack for all things ranging from planning and designing to solving real-life problems with code. When he is not online, he loves to spend time with his family.
         </Paragraph>
         <Box align="center" my={4}>
           <Button
@@ -99,16 +95,20 @@ const Home = () => (
           Bio
         </Heading>
         <BioSection>
-          <BioYear>1999</BioYear>
-          Born in Anand, Gujarat.
+          <BioYear>2000</BioYear>
+          Born in Nadiad, Gujarat.
         </BioSection>
         <BioSection>
-          <BioYear>2021</BioYear>
-          Completed the Bachelor&apos;s Program in the gujarat Technological University, Ahmedabad.
+          <BioYear>2018</BioYear>
+          Completed Higher Secondary Education (GSEB) from Vision School of Science, Nadiad.
         </BioSection>
         <BioSection>
-          <BioYear>2021 to Present</BioYear><br></br>
-          Currently Working at Royal Technosoft Pvt. Ltd., Gandhinagar.
+          <BioYear>2022</BioYear>
+          Completed the Bachelor&apos;s Program in Computer Engineering from the Gujarat Technological University, Ahmedabad.
+        </BioSection>
+        <BioSection>
+          <BioYear>2022</BioYear>
+          Currently Working at Royal Technosoft Pvt. Ltd., Gandhinagar. as a Front-End Developer.
         </BioSection>
       </Section>
 
@@ -117,7 +117,7 @@ const Home = () => (
           I ♥
         </Heading>
         <Paragraph>
-          Art, Music, Teaching, Machine Learning
+          Art, Music, Teaching, Learning New Stuff
         </Paragraph>
       </Section>
 
@@ -138,7 +138,7 @@ const Home = () => (
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://www.linkedin.com/in/mohammad-zafar-shabhai-15a248228" target="_blank">
+            <Link href="https://www.linkedin.com/in/zafarshabhai/" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
