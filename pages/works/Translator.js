@@ -11,19 +11,19 @@ import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
 const Work = () => (
-  <Layout title="WeatherApp">
+  <Layout title="Translator">
     <Container>
       <Title>
-      WeatherApp <Badge>2022-</Badge>
+      Translator <Badge>2021-</Badge>
       </Title>
       <P>
-      Enjoy the simple and elegant weather app with a minimalist design that is easy to use and visually appealing.
+      "Welcome to Translator, where language barriers dissolve at the click of a button, crafted with precision and care by a dedicated front-end developer."
       </P>
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Website</Meta>
-          <Link href="https://shabhaizafar.github.io/Responsive_Weather_App/">
-          Responsive_Weather_App <ExternalLinkIcon mx="2px" />
+          <Link href="https://shabhaizafar.github.io/Translator/">
+          Translator <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
@@ -35,9 +35,9 @@ const Work = () => (
           <span>HTML, CSS, JS</span>
         </ListItem>
       </List>
-      <WorkImage src="/images/works/weatherApp_01.png" alt="WeatherApp" />
-      <WorkImage src="/images/works/weatherApp_02.png" alt="WeatherApp" />
-      <WorkImage src="/images/works/weatherApp_03.png" alt="WeatherApp" />
+      <WorkImage src="/images/works/translator_01.png" alt="Translator" />
+      <WorkImage src="/images/works/translator_02.png" alt="Translator" />
+      <WorkImage src="/images/works/translator_03.png" alt="Translator" />
     </Container>
   </Layout>
 )

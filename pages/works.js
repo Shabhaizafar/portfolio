@@ -4,15 +4,7 @@ import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
 import thumbWeatherapp from '../public/images/works/weather_app_eyecatch.png'
-import thumbWalknote from '../public/images/works/walknote_eyecatch.png'
-import thumbFourPainters from '../public/images/works/the-four-painters_eyecatch.jpg'
-import thumbMenkiki from '../public/images/works/menkiki_eyecatch.png'
-import thumbMargelo from '../public/images/works/margelo_eyecatch.png'
-import thumbModeTokyo from '../public/images/works/modetokyo_eyecatch.png'
-import thumbStyly from '../public/images/works/styly_eyecatch.png'
-import thumbPichu2 from '../public/images/works/pichu2_eyecatch.png'
-import thumbFreeDBTagger from '../public/images/works/freedbtagger_eyecatch.png'
-import thumbAmembo from '../public/images/works/amembo_eyecatch.png'
+import thumbTranslator from '../public/images/works/translator_eyecatch.png'
 
 const Works = () => (
   <Layout title="Works">
@@ -31,17 +23,17 @@ const Works = () => (
             Enjoy the simple and elegant weather app with a minimalist design that is easy to use and visually appealing.
           </WorkGridItem>
         </Section>
-        {/* <Section>
+        <Section>
           <WorkGridItem
-            id="walknote"
-            title="walknote"
-            thumbnail={thumbWalknote}
+            id="Translator"
+            title="Translator"
+            thumbnail={thumbTranslator}
           >
-            Music recommendation app for iOS
+            Introducing Translator, where languages unite seamlessly - crafted by a passionate front-end developer.
           </WorkGridItem>
         </Section>
 
-        <Section delay={0.1}>
+        {/* <Section delay={0.1}>
           <WorkGridItem
             id="fourpainters"
             title="The four painters"
