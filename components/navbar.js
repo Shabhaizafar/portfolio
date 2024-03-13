@@ -8,16 +8,9 @@ import {
   Stack,
   Heading,
   Flex,
-  // Menu,
-  // MenuItem,
-  // MenuList,
-  // MenuButton,
-  // IconButton,
   useColorModeValue
 } from '@chakra-ui/react'
-// import { HamburgerIcon } from '@chakra-ui/icons'
 import ThemeToggleButton from './theme-toggle-button'
-// import { IoLogoGithub } from 'react-icons/io5'
 
 const LinkItem = ({ href, path, target, children, ...props }) => {
   const active = path === href
@@ -80,41 +73,10 @@ const Navbar = props => {
           <LinkItem href="/works" path={path}>
             Works
           </LinkItem>
-          {/* <LinkItem href="/about" path={path}>
-            About
-          </LinkItem>
-          <LinkItem href="/posts" path={path}>
-            Posts
-          </LinkItem> */}
         </Stack>
 
         <Box flex={1} align="right">
           <ThemeToggleButton />
-
-          <Box ml={2} display={{ base: 'inline-block', md: 'none' }}>
-            {/* <Menu isLazy id="navbar-menu">
-              <MenuButton
-                as={IconButton}
-                icon={<HamburgerIcon />}
-                variant="outline"
-                aria-label="Options"
-              />
-              <MenuList>
-                <MenuItem as={MenuLink} href="/">
-                  About
-                </MenuItem>
-                <MenuItem as={MenuLink} href="/works">
-                  Works
-                </MenuItem>
-                <MenuItem as={MenuLink} href="/about">
-                  About
-                </MenuItem>
-                <MenuItem as={MenuLink} href="/posts">
-                  Posts
-                </MenuItem>
-              </MenuList>
-            </Menu> */}
-          </Box>
         </Box>
       </Container>
     </Box>

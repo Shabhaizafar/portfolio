@@ -17,7 +17,7 @@ const Work = () => (
       Translator <Badge>2021-</Badge>
       </Title>
       <P>
-      "Welcome to Translator, where language barriers dissolve at the click of a button, crafted with precision and care by a dedicated front-end developer."
+      Welcome to Translator, where language barriers dissolve at the click of a button, crafted with precision and care by a dedicated front-end developer.
       </P>
       <List ml={4} my={4}>
         <ListItem>
