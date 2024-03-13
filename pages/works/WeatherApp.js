@@ -14,7 +14,7 @@ const Work = () => (
   <Layout title="WeatherApp">
     <Container>
       <Title>
-      WeatherApp <Badge>2022-</Badge>
+      WeatherApp <Badge>2022</Badge>
       </Title>
       <P>
       Enjoy the simple and elegant weather app with a minimalist design that is easy to use and visually appealing.

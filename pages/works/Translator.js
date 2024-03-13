@@ -3,7 +3,7 @@ import {
   Badge,
   Link,
   List,
-  ListItem
+  ListItem,
 } from '@chakra-ui/react'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { Title, WorkImage, Meta } from '../../components/work'
@@ -14,7 +14,7 @@ const Work = () => (
   <Layout title="Translator">
     <Container>
       <Title>
-      Translator <Badge>2021-</Badge>
+      Translator <Badge>2021</Badge> 
       </Title>
       <P>
       Welcome to Translator, where language barriers dissolve at the click of a button, crafted with precision and care by a dedicated front-end developer.
