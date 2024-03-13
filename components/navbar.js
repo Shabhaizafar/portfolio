@@ -80,12 +80,12 @@ const Navbar = props => {
           <LinkItem href="/works" path={path}>
             Works
           </LinkItem>
-          <LinkItem href="/about" path={path}>
+          {/* <LinkItem href="/about" path={path}>
             About
           </LinkItem>
           <LinkItem href="/posts" path={path}>
             Posts
-          </LinkItem>
+          </LinkItem> */}
         </Stack>
 
         <Box flex={1} align="right">
