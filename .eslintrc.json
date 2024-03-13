@@ -1,10 +1,30 @@
 {
   "root": true,
-  "extends": "next",
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:@next/next/recommended"
+  ],
+  "env": {
+    "browser": true,
+    "node": true,
+    "es2021": true
+  },
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
   "rules": {
-    "no-unused-vars": "off", // Turn off the rule
-    "react/display-name": 0,
-    "react/no-unescaped-entities": "off"
-    // "extends": "next/core-web-vitals"
+    "react/react-in-jsx-scope": "off", // Next.js doesn't require importing React
+    "react/prop-types": "off", // Optional, turn on if you want to enforce prop-types
+    "no-unused-vars": "off", // Optional, turn on if you want to enforce no-unused-vars
+    "react/display-name": "off" // Optional, turn on if you want to enforce display names
   }
 }
