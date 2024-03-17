@@ -75,7 +75,7 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-        Zafar is a full-stack developer based in Ahmedabad. He has a passion for building digital services and creating things that he wants. Zafar has a knack for all things ranging from planning and designing to solving real-life problems with code. When he is not online, he loves to spend time with his family.
+        Zafar is a front-end developer based in Ahmedabad. He has a passion for building digital services and creating things that he wants. Zafar has a knack for all things ranging from planning and designing to solving real-life problems with code. When he is not online, he loves to spend time with his family.
         </Paragraph>
         <Box align="center" my={4}>
           <Button
