@@ -80,10 +80,11 @@ const Home = () => (
         <Box align="center" my={4}>
           <Button
             as={NextLink}
-            href="/works"
+            href="https://drive.google.com/file/d/1GdOees57AYFgrGqQxcCYctXm55aAFx9M/view?usp=drivesdk"
             scroll={false}
             rightIcon={<ChevronRightIcon />}
             colorScheme="teal"
+            target='_blank'
           >
             My portfolio
           </Button>

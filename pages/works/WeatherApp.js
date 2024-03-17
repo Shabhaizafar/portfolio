@@ -22,7 +22,7 @@ const Work = () => (
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Website</Meta>
-          <Link href="https://shabhaizafar.github.io/Responsive_Weather_App/">
+          <Link href="https://shabhaizafar.github.io/Responsive_Weather_App/" target='_blank'>
           Responsive_Weather_App <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
