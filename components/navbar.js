@@ -1,3 +1,4 @@
+import { forwardRef } from 'react'
 import Logo from './logo'
 import NextLink from 'next/link'
 import {
@@ -7,8 +8,14 @@ import {
   Stack,
   Heading,
   Flex,
+  Menu,
+  MenuItem,
+  MenuList,
+  MenuButton,
+  IconButton,
   useColorModeValue
 } from '@chakra-ui/react'
+import { HamburgerIcon } from '@chakra-ui/icons'
 import ThemeToggleButton from './theme-toggle-button'
 
 const LinkItem = ({ href, path, target, children, ...rest }) => {
@@ -29,6 +36,10 @@ const LinkItem = ({ href, path, target, children, ...rest }) => {
     </Link>
   )
 }
+
+const MenuLink = forwardRef((props, ref) => (
+  <Link ref={ref} as={NextLink} {...props} />
+))
 
 const Navbar = ({ path, ...rest }) => {
   return (
@@ -70,6 +81,23 @@ const Navbar = ({ path, ...rest }) => {
 
         <Box flex={1} align="right">
           <ThemeToggleButton />
+
+          <Box ml={2} display={{ base: 'inline-block', md: 'none' }}>
+            <Menu isLazy id="navbar-menu">
+              <MenuButton
+                as={IconButton}
+                icon={<HamburgerIcon />}
+                variant="outline"
+                aria-label="Options"
+              />
+              <MenuList>
+                <MenuItem as={MenuLink} href="/works">
+                  Works
+                </MenuItem>
+              </MenuList>
+            </Menu>
+          </Box>
+
         </Box>
       </Container>
     </Box>

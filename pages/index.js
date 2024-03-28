@@ -86,7 +86,7 @@ const Home = () => (
             colorScheme="teal"
             target='_blank'
           >
-            My portfolio
+            My Resume
           </Button>
         </Box>
       </Section>
