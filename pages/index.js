@@ -80,7 +80,7 @@ const Home = () => (
         <Box align="center" my={4}>
           <Button
             as={NextLink}
-            href="https://drive.google.com/file/d/1GdOees57AYFgrGqQxcCYctXm55aAFx9M/view?usp=drivesdk"
+            href="https://drive.google.com/file/d/1dNxQ14BwO_mYu01lPvO5fYJnWSUHW7aq/view?usp=sharing"
             scroll={false}
             rightIcon={<ChevronRightIcon />}
             colorScheme="teal"
